@@ -151,8 +151,28 @@ margin-bottom: 30px;
      text-align: center;
 
 }
-
-
-/* delivery section end form here */
+/* delivery section end form here 
+***********************************************************************************/
+/* hot deal section start form here */
+.hot-deal-bc{
+     padding: 100px 0px;
+     background: rgba(229, 84, 115, 0.05)
+}
+.hot-deal-container{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.hot-deal-title .primary-paragraph{
+     text-align: center;
+     margin: 30px 0px;
+}
+.hot-deal-title .primary-title span{
+     color:  #E55473;
+}
+.hot-deal-title .primary-btn{
+    margin-left: 40%;
+}
+/* hot deal section end form here */
 /* main section end form here 
 *********************************************************************/
