@@ -1,0 +1,62 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;;
+}
+/* share style section start form here */
+.primary-paragraph{
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     margin-bottom: 30px;
+
+}
+.primary-btn{
+     border-radius: 8px;
+     background: #E55473;
+     color: #fff;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 15px 20px;
+     border: none;
+     outline: none;
+}
+/* share style section end form here 
+*****************************************************/
+
+/* header start form here */
+.container{
+    background: rgba(229, 84, 115, 0.10);
+     
+}
+.main-header{
+     margin: 0px 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+}
+.heading-pragraph{
+     width: 700px;
+     padding-bottom: 150px;
+     margin-top: 150px;
+}
+.head-title{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+margin-bottom: 30px;
+
+}
+.heading-image{
+     width: 635px;
+     height: 800px;
+     background-image: url('Flower Asset/pngwing 10.png');
+     background-position: right bottom;
+     background-repeat: no-repeat;
+    
+     margin-top: 50px;
+}
+/* header end form here */
