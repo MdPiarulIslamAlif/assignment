@@ -175,7 +175,7 @@ margin-bottom: 30px;
 }
 /* hot deal section end form here */
 /* social area start form here */
-article{
+.social-bc-container{
      margin: 0px 200px;
 }
 .social-container .primary-title{
@@ -194,5 +194,46 @@ article{
      height: 396px;
 }
 /* social area end form here */
+/* banner section start form here */
+.banner-bc-container{
+     margin: 0px 150px;
+     
+}
+.banner{
+    height: 449px;
+    background-image: url('img/Rectangle-9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+input{
+     width: 700px;
+     height: 64px;
+     padding: 15px 20px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     
+}
+.search-btn{
+     height: 64px;
+     padding: 15px 30px;
+     border: none;
+     outline: none;
+     border-radius: 5px;  
+     background-color: #E55473;   
+
+}
+.banner-in-content .primary-paragraph{
+     text-align: center;
+     margin: 40px 0px;
+     
+}
+
+
+/* banner section end form here */
 /* main section end form here 
 *********************************************************************/
