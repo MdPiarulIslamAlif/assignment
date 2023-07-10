@@ -174,5 +174,25 @@ margin-bottom: 30px;
     margin-left: 40%;
 }
 /* hot deal section end form here */
+/* social area start form here */
+article{
+     margin: 0px 200px;
+}
+.social-container .primary-title{
+     margin-bottom: 30px;
+}
+.social-container {
+     margin: 100px 0px;
+}
+.social-container .primary-paragraph{
+     text-align: center;
+}
+.flower-container{
+     display: flex;
+}
+.flower-box{
+     height: 396px;
+}
+/* social area end form here */
 /* main section end form here 
 *********************************************************************/
