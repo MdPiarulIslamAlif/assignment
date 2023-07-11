@@ -28,6 +28,7 @@
      padding: 15px 20px;
      border: none;
      outline: none;
+     cursor: pointer;
 }
 /* share style section end form here 
 *****************************************************/
@@ -173,7 +174,80 @@ margin-bottom: 30px;
 .hot-deal-title .primary-btn{
     margin-left: 40%;
 }
-/* hot deal section end form here */
+/* hot deal section end form here 
+**********************************************************************/
+/* special offer start form here */
+
+.order-main-container{
+         
+}
+.order-container{
+     position: relative;
+     margin-top: 100px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+
+}
+.special-offer{
+     width: 1100px;
+     padding-bottom: 100px;
+     text-align: center;
+     border-top-right-radius: 400px;
+     border-bottom-right-radius: 400px;
+     background: rgba(229, 84, 115, 0.10);
+}
+.special-offer .primary-title{
+     margin-top: 100px;
+     margin-bottom: 30px;
+}
+.special-offer .valid-time{
+     font-size: 20px;
+     color: #E55473;
+     margin-bottom: 30px;
+}
+.Special-img{
+     height: 250px;
+     margin-bottom: 30px;
+}
+.input-item{
+     text-align: center;
+     padding-top: 50px;
+     width: 600px;
+     height: 600px;
+     border-radius: 10px;
+     margin-left: -200px;
+     background: rgba(5, 151, 160, 0.15);
+}
+.input-item .primary-title{
+     font-size: 30px;
+     margin-bottom: 50px;
+}
+input {
+     display: inline-block;
+     
+}
+textarea, input[type="text"], [type="email"]{
+     border: 0;
+     outline: 0;
+     width: 300px;
+     height: 50px;
+     padding: 10px;
+     margin-bottom: 30px;
+     background-color:rgba(5, 151, 160, 0.15);
+}
+textarea{
+     border: 0;
+     padding: 10px;
+     height: 100px !important;
+     outline: 0;
+}
+
+
+
+
+/* special offer end form here 
+*********************************************************************/
 /* social area start form here */
 .social-bc-container{
      margin: 0px 200px;
@@ -202,6 +276,7 @@ margin-bottom: 30px;
 .banner{
     width: 100%;
     height: 449px;
+    margin-bottom: 100px;
     background-image: url('img/Rectangle-9.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +286,7 @@ margin-bottom: 30px;
     align-items: center;
    
 }
-input{
+.banner-in-content input[type="email"]{
      width: 700px;
      height: 64px;
      padding: 15px 20px;
@@ -248,9 +323,7 @@ input{
 .footer-container .primary-title{
      color: #ffff;
      margin-bottom: 30px;
-
 }
-
 .footer-container .primary-title span{
      color: #E55473;
      text-align: center;
