@@ -30,6 +30,11 @@
      outline: none;
      cursor: pointer;
 }
+.primary-btn:hover{
+     background: transparent;
+     border: 1px solid #E55473;
+
+}
 /* share style section end form here 
 *****************************************************/
 
@@ -224,10 +229,10 @@ margin-bottom: 30px;
      margin-bottom: 50px;
 }
 
-.input-item textarea, input[type="text"], [type="email"]{
+.input-item textarea, input[type="text"], input[type="email"]{
      border: 0;
      outline: 0;
-     width: 300px;
+     width: 400px;
      height: 50px;
      padding: 10px;
      margin-bottom: 30px;
@@ -305,14 +310,13 @@ margin-bottom: 30px;
 }
 /* banner section end form here */
 /* Contact us section start form here */
-.contact-container{background-color: ;
+.contact-container{
      margin: 100px 0px;
      background: rgba(229, 84, 115, 0.10);
     
 }
 .contact-us-container{
      margin: 50px 0px;
-     background: rgba(71, 125, 17, 0.15);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -342,7 +346,6 @@ margin-bottom: 30px;
      padding: 10px;
      margin-bottom: 30px;
      background-color:rgba(5, 151, 160, 0.15);
-
 }
 .text-and-btn textarea{
      width: 100%;
@@ -353,9 +356,6 @@ margin-bottom: 30px;
      background-color:rgba(5, 151, 160, 0.15);
      
 }
-
-
-
 /* Contact us section end form here */
 /* main section end form here 
 *********************************************************************/
@@ -384,3 +384,5 @@ margin-bottom: 30px;
 
 }
 /* footer section end form here */
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Thanks for Red my code sir <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
