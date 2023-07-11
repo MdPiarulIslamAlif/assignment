@@ -223,11 +223,8 @@ margin-bottom: 30px;
      font-size: 30px;
      margin-bottom: 50px;
 }
-input {
-     display: inline-block;
-     
-}
-textarea, input[type="text"], [type="email"]{
+
+.input-item textarea, input[type="text"], [type="email"]{
      border: 0;
      outline: 0;
      width: 300px;
@@ -236,15 +233,12 @@ textarea, input[type="text"], [type="email"]{
      margin-bottom: 30px;
      background-color:rgba(5, 151, 160, 0.15);
 }
-textarea{
+.input-item textarea{
      border: 0;
      padding: 10px;
      height: 100px !important;
      outline: 0;
 }
-
-
-
 
 /* special offer end form here 
 *********************************************************************/
@@ -310,6 +304,59 @@ textarea{
      
 }
 /* banner section end form here */
+/* Contact us section start form here */
+.contact-container{background-color: ;
+     margin: 100px 0px;
+     background: rgba(229, 84, 115, 0.10);
+    
+}
+.contact-us-container{
+     margin: 50px 0px;
+     background: rgba(71, 125, 17, 0.15);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.contact-us{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin-bottom: 50px;
+  
+}
+.contact-us .primary-title{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+.text-and-btn .primary-btn{
+     margin-top: 20px;
+     width: 130px;
+
+}
+.contact-us input[type="text"], input[type="email"], input[type="tel"]{
+     border: 0;
+     outline: 0;
+     width: 400px;
+     height: 50px;
+     padding: 10px;
+     margin-bottom: 30px;
+     background-color:rgba(5, 151, 160, 0.15);
+
+}
+.text-and-btn textarea{
+     width: 100%;
+     padding: 10px;
+     height: 100px !important;
+     outline: 0;
+     border: 0;
+     background-color:rgba(5, 151, 160, 0.15);
+     
+}
+
+
+
+/* Contact us section end form here */
 /* main section end form here 
 *********************************************************************/
 /* footer section start form here */
