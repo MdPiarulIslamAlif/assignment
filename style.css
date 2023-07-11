@@ -32,7 +32,8 @@
 }
 .primary-btn:hover{
      background: transparent;
-     border: 1px solid #E55473;
+     color: #272727;
+     border: 2px solid #E55473;
 
 }
 /* share style section end form here 
