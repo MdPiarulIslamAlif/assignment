@@ -234,8 +234,33 @@ input{
      margin: 40px 0px;
      
 }
-
-
 /* banner section end form here */
 /* main section end form here 
 *********************************************************************/
+/* footer section start form here */
+.footer-bc{
+     background: #111010;
+}
+.footer-container{
+     text-align: center;
+     padding: 100px 0px;
+}
+.footer-container .primary-title{
+     color: #ffff;
+     margin-bottom: 30px;
+
+}
+
+.footer-container .primary-title span{
+     color: #E55473;
+     text-align: center;
+}
+.footer-container .primary-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 30px;
+}
+.footer-container small{
+     color: rgba(255, 255, 255, 0.40);
+
+}
+/* footer section end form here */
